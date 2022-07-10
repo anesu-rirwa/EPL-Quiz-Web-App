@@ -1,0 +1,44 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 100%;
+  background-color: aqua;
+  height: 653px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+}
+
+.question-section {
+  height: 100%;
+}
+
+.answer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  width: 70%;
+  height: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  height: 1.7rem;
+  font-size: 0.9rem;
+}
+
+.btn:hover {
+  font-weight: bold;
+}
